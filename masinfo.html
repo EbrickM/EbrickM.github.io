@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="masinfostyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..
+900;1,400..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Roboto:
+ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<script>
+    // Agregar un evento para detectar el movimiento de la rueda del ratón
+    window.addEventListener('wheel', function(event) {
+      // Prevenir el comportamiento predeterminado de la rueda del ratón
+      event.preventDefault();
+      // Obtener el valor de desplazamiento de la rueda del ratón
+      var delta = event.deltaY || event.detail || event.wheelDelta;
+      // Aplicar el desplazamiento al desplazamiento vertical de la página
+      window.scrollBy(0, delta);
+    });
+  </script>
+<title>Ebphoto</title>
+</head>
+<body>
+        <nav class="navegador">
+            <div class="ensambler"><a href="index.html" class="alogo"><img src="logo.png" class="logo"></a></div>
+            <nav class="extras">             
+                <a href="contactame.html" class="contact">contactame</a>
+            </nav>
+        </nav>
+        <div class="infobox">
+        <div class="photoshop"><img src="Adobe_Photoshop_CC_icon.svg" alt="">
+            <p>Poseo dos años de experiencia sólida en el uso profesional de Adobe Photoshop. Durante este tiempo, 
+                he desarrollado habilidades en la manipulación de imágenes, edición fotográfica, y diseño gráfico, 
+                contribuyendo a proyectos diversos con resultados exitosos y satisfactorios. Mi dominio de Photoshop 
+                se extiende desde tareas básicas hasta proyectos más complejos, demostrando mi capacidad para adaptarme a 
+                diferentes necesidades creativas y entornos de trabajo.
+            </p>
+        </div>
+        <div class="lightroom"><img src="Adobe_Photoshop_Lightroom_CC_logo.svg" alt="">
+            <p>Cuento con un año de experiencia sólida en el manejo profesional de Adobe Lightroom. Durante este periodo, he adquirido
+                 habilidades en la organización, corrección y mejora de fotografías, así como en la gestión eficiente de flujos de trabajo 
+                 fotográficos. Mi capacidad para maximizar el potencial de las imágenes a través de Lightroom ha sido 
+                fundamental para la entrega de resultados de alta calidad en diversos proyectos fotográficos y el posprocesado de imagenes.</p>
+        </div>
+        <div class="premiere" ><img src="Adobe_Premiere_Pro_CC_icon.svg" alt="">
+            <p> A su vez llevo dos años también trabajando con las funcionalidades que brinda Adobre 
+                Premiere para la edición de video por lo que tengo falcultades en consecuencia para desarrollar
+                funciones creativas de creación audiovisual sin problema alguno.</p>
+        </div>
+        </div>
+</body>
+</html>

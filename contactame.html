@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactame</title>
+    <link rel="stylesheet" href="contactame.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,
+wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<script>
+    // Agregar un evento para detectar el movimiento de la rueda del ratón
+    window.addEventListener('wheel', function(event) {
+      // Prevenir el comportamiento predeterminado de la rueda del ratón
+      event.preventDefault();
+      // Obtener el valor de desplazamiento de la rueda del ratón
+      var delta = event.deltaY || event.detail || event.wheelDelta;
+      // Aplicar el desplazamiento al desplazamiento vertical de la página
+      window.scrollBy(0, delta);
+    });
+  </script>
+</head>
+<body>
+    <div class="index">
+     <a href="index.html"><img src="logo.png" alt="" class="logo"></a>
+    </div>
+    <img src="arrow-icon.png" alt="" class="icono">
+    <div class="botones">
+       <button class="whatsapp"><a href="https://api.whatsapp.com/send?phone=+5358661322">Contactame por WhatsApp</a>
+    <img src="whatsapp-logo-transparent-shadow.png" alt="">
+    </button>
+       <button class="gmail"><a href="mailto:ebrickmartinez22@gmail.com" >Contactame por Gmail </a> <img src="Gmail-Logo.png" alt=""></button>
+    </div>
+</body>
+</html>

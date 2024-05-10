@@ -1,0 +1,94 @@
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #131313;
+    align-items: center;
+    height: 80vh;
+    background-image: url(fondo.png);
+    background-repeat:repeat;
+    background-size: cover;
+}
+.index{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(224, 227, 230);
+    border-radius: 50%;
+    height:80px ;
+    width: 80px;
+    transition: border-radius .3s ease;
+}
+.index:hover{
+    border-radius: 30%;  
+    width: 100px;
+}
+.logo{
+    height: 60px;
+}
+.botones{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.botones button{
+  height: 60px;  
+  width: 358px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color:rgb(224, 227, 230) ;
+  background-color: #131313;
+  font-family: "roboto";
+  font-size: 25px;
+  box-shadow:2px 2px 2px 2px rgba(202, 202, 202, 0.551);
+}
+.botones button:hover{
+    background-color: #4a4a4a;
+    transition: background-color .2s ease;
+    width: 370px;
+    transition:  width .5s ease;
+}
+.gmail{
+    margin-top: 20px;
+    font-size: 26px;
+    padding-left: 15px;
+}
+button img{
+    height: 40px;
+}
+@media screen and (max-width: 366px) {
+body{
+    height:auto ;
+    width: auto;  
+}
+.botones button{
+    height: 60px;  
+    width: 310px;
+    font-size: 13px;
+}
+.botones button:hover{
+    width: 320px;
+    transition:  width .3s ease;
+}
+}
+.icono{
+    margin-top: 40px;
+    height: 60px;
+    width: 60px;
+}
+.icono:hover{
+    transition: margin-top .3s ease;
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+    color:rgb(224, 227, 230) ;
+    font-size: 25px;
+    font-family: "roboto";
+}
